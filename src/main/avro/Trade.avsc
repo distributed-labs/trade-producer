@@ -1,0 +1,31 @@
+{
+  "name": "Trade",
+  "namespace": "stock",
+  "type": "record",
+  "fields": [
+    {
+      "name": "account",
+      "type": "long"
+    },
+    {
+      "name": "ticker",
+      "type": "string"
+    },
+    {
+      "name": "amount",
+      "type": "double"
+    },
+    {
+      "name": "price",
+      "type": "double"
+    },
+    {
+      "name": "currency",
+      "type": "string"
+    },
+    {
+      "name": "dateTime",
+      "type": "long"
+    }
+  ]
+}
